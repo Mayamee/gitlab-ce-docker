@@ -20,9 +20,9 @@ destroy:
 # Troubleshooting 
 logs:
 		docker-compose logs -f
-ps:
+status:
 		docker-compose ps
 shell:
 		docker-compose exec web bash
 
-.PHONY: validate-config up restart down destroy logs ps shell 
+.PHONY: validate-config up restart down destroy logs status shell

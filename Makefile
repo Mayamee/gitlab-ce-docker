@@ -12,6 +12,8 @@ up: validate-config
 		docker-compose up -d
 restart:
 		docker-compose restart
+recreate:
+		docker-compose up -d --force-recreate
 down:
 		docker-compose down
 destroy:
